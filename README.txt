@@ -1,6 +1,6 @@
 3x3 Cube Timer 5.0
 Cube Timer 5.0 is a fully responsive website created with HTML, CSS, and JavaScript. It provides a user-friendly interface for timing Rubik's Cube solves and tracking progress. The website offers various features and functionalities to enhance the solving experience.
-This wesile is live now and can be used from this link: https://asm-khan-sarib.github.io/3x3-cube-timer-5.0/
+This wesile is live now and can be used from this link: https://asm-khan-sarib.github.io/Cube-Timer-5.0/
 ------------------------------
 Features:
 1. Timer Controls: Start and stop the timer using both the Space bar and mouse clicks for convenience.
