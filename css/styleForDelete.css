@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 200, 200);
+    text-align: center;
+}
+header {
+    background-color: #8a2020;
+    color: #fff;
+    padding: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 30px;
+    margin: 1px 1px 30px 1px;
+    border: 3px solid rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200) black black rgb(200, 200, 200);
+}
+  
+nav ul {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+  
+nav li {
+    font-size: 1.2rem;
+    display: inline;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#li1{
+    margin-left: -20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.quick_delete_btn {
+    font-size: 80%;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(196, 26, 26);
+    color: rgb(238, 187, 187);
+    cursor: pointer;
+}
+.quick_delete_btn:hover{
+    background-color: rgb(248, 42, 42);
+}
+
+#submit{
+    margin-top: 10px;
+    height: 40px;
+    width: 70px;
+}
+.msg{
+    font-size: 0.9rem;
+}

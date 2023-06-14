@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>3x3 Cube timer 5.0</title>
+    <link rel="stylesheet" href="css/styleForProgress.css">
+    <link rel="icon" href="icon1.png">
+    <script src="script/jsForProgress.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav><ul><strong>
+            <li id="li1"><a href="index.html">Timer</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="progress.html"><u>Progress</u></a></li>
+            <li><a href="delete.html">Delete</a></li>
+        </strong></ul></nav>
+    </header>
+    <br><br>
+    <p class="text"><u><strong>Progress Chart</strong></u></p><br>
+    <p id="text1">
+        <table>
+            <tr>
+                <td> <b>Sector</b> </td> <td> <b>Time</b> </td>
+            </tr>
+            <tr>
+                <td>AVG</td> <td id="AVG">--:--:--</td>
+            </tr>
+            <tr>
+                <td>Ao5</td> <td id="Ao5">--:--:--</td>
+            </tr>
+            <tr>
+                <td>Ao12</td> <td id="Ao12">--:--:--</td>
+            </tr>
+            <tr>
+                <td>Ao50</td> <td id="Ao50">--:--:--</td>
+            </tr>
+            <tr>
+                <td>Ao100</td> <td id="Ao100">--:--:--</td>
+            </tr>
+            <tr>
+                <td>Best</td> <td id="Best">--:--:--</td>
+            </tr>
+            <tr>
+                <td>Worst</td> <td id="Worst">--:--:--</td>
+            </tr>
+        </table><br><br>
+    </p>
+    <p class="text"><u><strong>Progress Chart</strong></u></p><br>
+    <canvas id="myChart"></canvas>
+    <br><br><br><br>
+</body>
+
+</html>

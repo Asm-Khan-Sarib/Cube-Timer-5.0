@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x3 Cube timer 5.0</title>
+    <link rel="stylesheet" href="css/styleForDelete.css">
+    <link rel="icon" href="icon1.png">
+    <script src="script/jsForDelete.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul><strong>
+                    <li id="li1"><a href="index.html">Timer</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="progress.html">Progress</a></li>
+                    <li><a href="delete.html"><u>Delete</u></a></li>
+                </strong></ul>
+        </nav>
+    </header>
+    <section>
+        <form class="delete_form">
+            <br>
+            <label><strong> Write Solve ID to Delete </strong></label><br><br>
+            <input type="number" id="solve_id" required><br>
+            <button type="submit" class="quick_delete_btn" id="submit">Delete</button>
+            <p class="msg" id="text1"></p>
+        </form>
+    </section> 
+    <br>
+    <section>
+        <p><strong> Quick Delete </strong></p>
+        <button type="button" class="quick_delete_btn" id="delete1">Delete Last Solve</button>
+        <button type="button" class="quick_delete_btn" id="delete5">Delete Last 5 Solve</button>
+        <button type="button" class="quick_delete_btn" id="delete">Delete All Solve</button>
+        <p class="msg" id="text2"></p>
+    </section>
+</body>
+
+</html>

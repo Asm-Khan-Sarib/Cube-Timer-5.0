@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 200, 200);
+    text-align: center;
+}
+header {
+    background-color: #8a2020;
+    color: #fff;
+    padding: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 30px;
+    margin: 1px;
+    
+    border: 3px solid rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200) black black rgb(200, 200, 200);
+}
+
+nav ul {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+  
+nav li {
+    font-size: 1.2rem;
+    display: inline;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#li1{
+    margin-left: -20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td {
+    text-align: center;
+    height: 35px;
+    width: 160px;
+    color: rgb(110, 22, 7);
+    border: 1px solid rgba(51, 51, 51, 0.6);
+    background-color: rgba(220, 220, 220, 0.15);
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#myChart {
+    padding: 0;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid rgb(51, 51, 51, 0.6);
+  }
+.text{
+    font-size: 1.8rem;
+    margin: 2px;
+    color: rgb(110, 22, 7);
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    #myChart {
+        width: 340px;
+        height: 200px;
+    }
+}

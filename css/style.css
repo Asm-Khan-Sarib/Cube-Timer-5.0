@@ -1,0 +1,128 @@
+body {
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 200, 200);
+    text-align: center;
+}
+header {
+    background-color: #8a2020;
+    color: #fff;
+    padding: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 30px;
+    margin: 1px;
+    
+    border: 3px solid rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200) black black rgb(200, 200, 200);
+}
+  
+nav ul {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+  
+nav li {
+    font-size: 1.2rem;
+    display: inline;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#li1{
+    margin-left: -20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#part1 {
+    margin: 2px;
+    padding: 15px 10px 4px;
+    font-size: 90%;
+    min-height: 50px;
+    text-align: center;
+    color: rgb(110, 22, 7);
+    border: 3px solid ;
+    border-color: rgb(170, 170, 170) black black rgb(170, 170, 170);
+}
+#part2 {
+    margin: 0;
+    font-size: 4rem;
+    height: 200px;
+    max-width: 90%;
+    min-width: 29.3%;
+    text-align: center;
+    background-color: rgb(84, 235, 129);
+    border: 3px solid ;
+    border-color: rgb(170, 170, 170) black black rgb(170, 170, 170);
+    cursor: pointer;
+}
+#add2, #delete{
+    margin: 0;
+    height: 50px;
+    max-width: 45%;
+    min-width: 14.61%;
+    text-align: center;
+    background-color:rgb(189, 76, 48);
+    color: #fff;
+    border: 1px solid ;
+    border-color: rgb(170, 170, 170) black black rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    #add2, #delete {
+        width: 133px;
+    }
+}
+
+#part3 {
+    margin: auto;
+    margin-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(84, 235, 129);
+    border: 3px solid;
+    border-color: rgb(170, 170, 170) black black rgb(170, 170, 170);
+}
+  
+/* Table */
+table {
+    display: block;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 0;
+}
+td {
+    padding: 0;
+    margin: 0;
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+td p {
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(70, 70, 70);
+    border-color: rgb(70, 70, 70) black black rgb(70, 70, 70);
+}
+  
+/* cube face Styles */
+.left, .front, .right, .back {
+    margin-top: 20px;
+    display: inline;
+}
+.down, .up {
+    margin-top: 2px;
+    margin-left: 40px;
+}
+.up {
+    margin-bottom: 2px;
+    margin-left: 40px;
+}
